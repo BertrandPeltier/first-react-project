@@ -8,11 +8,11 @@ const Menu = () => (
       <li className="menu__item">Acceuil</li>
       <li className="menu__item">Méthode</li>
       <li className="menu__item">Accompagnements</li>
+      <img className="menu__logo" src={mtvSimpleLogo} alt="Logo Manage ta vie" />
       <li className="menu__item">À propos</li>
       <li className="menu__item">Podcast</li>
       <li className="menu__item">Contact</li>
     </ul>
-    <img src={mtvSimpleLogo} alt="Logo Manage ta vie" />
   </nav>
 );
 
